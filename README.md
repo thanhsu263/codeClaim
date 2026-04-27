@@ -48,7 +48,7 @@ CodeClaim lets server administrators create redeemable codes that reward players
 ## Installation
 
 1. Download `codeclaim-1.0.0.jar` from the [Releases](../../releases) page
-2. Download all required dependencies: Fabric Language Kotlin, Fabric Permissions API
+2. Download all required dependencies: Fabric Language Kotlin, Fabric API
 3. Place the file in your server's `mods/` folder alongside Fabric API
 4. Start the server — the config file will be automatically generated at `config/codeclaim.json`
 5. Edit the config to define your codes and rewards
