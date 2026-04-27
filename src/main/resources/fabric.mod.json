@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "codeclaim",
+  "version": "1.0.0",
+  "name": "CodeClaim",
+  "description": "Nhập code để nhận thưởng! Mỗi người chỉ nhập 1 lần, có giới hạn tổng số dùng. Không cần resource pack.",
+  "authors": ["CobbleVerse Server"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.cobbleverse.codeclaim.CodeClaim"
+    ]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.1",
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*"
+  }
+}

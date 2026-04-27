@@ -1,0 +1,33 @@
+{
+  "messages": {
+    "invalid_code":    "&cCode '&4{code}&c' không tồn tại!",
+    "already_claimed": "&cBạn đã nhập code '&4{code}&c' rồi!",
+    "max_uses":        "&cCode '&4{code}&c' đã hết lượt sử dụng!",
+    "success":         "&aĐã nhận thưởng từ code '&2{code}&a' thành công!",
+    "reloaded":        "&aCodeClaim đã reload config!"
+  },
+  "codes": {
+    "VIP2024": {
+      "max_uses": 100,
+      "commands": [
+        "give %player% minecraft:diamond 5",
+        "say %player% vừa nhận code VIP!"
+      ]
+    },
+    "NEWPLAYER": {
+      "max_uses": -1,
+      "commands": [
+        "give %player% minecraft:bread 16",
+        "give %player% minecraft:wooden_sword 1"
+      ]
+    },
+    "GRAND_PRIZE": {
+      "max_uses": 1,
+      "commands": [
+        "give %player% minecraft:netherite_ingot 1",
+        "title %player% title {\"text\":\"Chúc mừng!\",\"color\":\"gold\"}",
+        "say %player% vừa trúng GRAND PRIZE!"
+      ]
+    }
+  }
+}
