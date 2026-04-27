@@ -18,6 +18,8 @@ No client mod required. No database required.
 ## Overview
 
 CodeClaim lets server administrators create redeemable codes that reward players with any server command — give items, Pokemon, broadcast titles, and more. Each player can only redeem each code once, and each code can have a global usage limit. All data is stored in simple JSON files with no external database setup required.
+<img width="1020" height="603" alt="image" src="https://github.com/user-attachments/assets/6a7e9cdf-f1b8-49c1-ace5-a569e64d0853" />
+
 
 ---
 
